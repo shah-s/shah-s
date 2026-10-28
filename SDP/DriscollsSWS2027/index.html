@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Sweetness Worth Sharing: a consumer referral program concept demo prepared by SDP for Driscoll's.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0E3420">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Sweetness">
+<link rel="icon" href="images/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+
+<title>Sweetness Worth Sharing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="b-straw" viewBox="0 0 100 100">
+      <path d="M50 92C28 80 14 60 16 42c1-12 12-18 22-16 5 1 9 3 12 3s7-2 12-3c10-2 21 4 22 16 2 18-12 38-34 50z" fill="#D7193F"/>
+      <path d="M50 92C28 80 14 60 16 42c1-6 4-10 8-13-2 22 8 44 26 63z" fill="#B3123F"/>
+      <g fill="#FCE7A6"><ellipse cx="34" cy="44" rx="2" ry="3"/><ellipse cx="50" cy="42" rx="2" ry="3"/><ellipse cx="66" cy="44" rx="2" ry="3"/><ellipse cx="42" cy="58" rx="2" ry="3"/><ellipse cx="58" cy="58" rx="2" ry="3"/><ellipse cx="50" cy="73" rx="2" ry="3"/><ellipse cx="30" cy="56" rx="1.8" ry="2.6"/><ellipse cx="70" cy="56" rx="1.8" ry="2.6"/></g>
+      <path d="M50 30c-6-8-18-10-24-6 7 0 12 3 15 7-8-2-16 1-19 6 9-3 18-1 28-4 10 3 19 1 28 4-3-5-11-8-19-6 3-4 8-7 15-7-6-4-18-2-24 6z" fill="#3E8E3A"/>
+      <path d="M50 30V14" stroke="#2F6B2C" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="b-blue" viewBox="0 0 100 100">
+      <circle cx="50" cy="54" r="34" fill="#3B4FA0"/>
+      <circle cx="50" cy="54" r="34" fill="url(#gBlue)"/>
+      <path d="M50 30l4 7 7-4-3 8 8 2-8 3 3 8-7-4-4 7-4-7-7 4 3-8-8-3 8-2-3-8 7 4z" fill="#22306B" transform="translate(0 -6) scale(1)"/>
+      <ellipse cx="38" cy="66" rx="7" ry="4" fill="#fff" opacity=".18"/>
+    </symbol>
+    <radialGradient id="gBlue" cx=".35" cy=".35" r=".8"><stop offset="0" stop-color="#7A8FD8" stop-opacity=".7"/><stop offset="1" stop-color="#2B3880" stop-opacity="0"/></radialGradient>
+    <symbol id="b-rasp" viewBox="0 0 100 100">
+      <g fill="#E0315C">
+        <circle cx="38" cy="38" r="11"/><circle cx="58" cy="36" r="11"/><circle cx="28" cy="54" r="11"/><circle cx="48" cy="52" r="11"/><circle cx="68" cy="52" r="11"/><circle cx="36" cy="70" r="11"/><circle cx="58" cy="70" r="11"/><circle cx="47" cy="85" r="10"/>
+      </g>
+      <g fill="#F7718F" opacity=".8"><circle cx="35" cy="35" r="3.5"/><circle cx="55" cy="33" r="3.5"/><circle cx="25" cy="51" r="3.5"/><circle cx="45" cy="49" r="3.5"/><circle cx="65" cy="49" r="3.5"/><circle cx="33" cy="67" r="3.5"/><circle cx="55" cy="67" r="3.5"/><circle cx="44" cy="82" r="3"/></g>
+      <path d="M48 26c-8-6-16-6-20-2 6 1 10 3 12 6-6 0-11 3-12 7 8-3 14-3 20-5 6 2 12 2 20 5-1-4-6-7-12-7 2-3 6-5 12-6-4-4-12-4-20 2z" fill="#3E8E3A"/>
+    </symbol>
+    <symbol id="b-black" viewBox="0 0 100 100">
+      <g fill="#2B1736">
+        <circle cx="40" cy="38" r="11"/><circle cx="60" cy="38" r="11"/><circle cx="30" cy="55" r="11"/><circle cx="50" cy="53" r="11"/><circle cx="70" cy="55" r="11"/><circle cx="38" cy="71" r="11"/><circle cx="60" cy="71" r="11"/><circle cx="49" cy="86" r="10"/>
+      </g>
+      <g fill="#7C5A93" opacity=".75"><circle cx="37" cy="35" r="3.5"/><circle cx="57" cy="35" r="3.5"/><circle cx="27" cy="52" r="3.5"/><circle cx="47" cy="50" r="3.5"/><circle cx="67" cy="52" r="3.5"/><circle cx="35" cy="68" r="3.5"/><circle cx="57" cy="68" r="3.5"/><circle cx="46" cy="83" r="3"/></g>
+      <path d="M50 28c-8-6-16-6-20-2 6 1 10 3 12 6-6 0-11 3-12 7 8-3 14-3 20-5 6 2 12 2 20 5-1-4-6-7-12-7 2-3 6-5 12-6-4-4-12-4-20 2z" fill="#3E8E3A"/>
+    </symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c1-4.5 4.5-6.5 8-6.5s7 2 8 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.5l6.8-4M8.6 13.5l6.8 4"/></g></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="8" width="18" height="5" rx="1"/><path d="M5 13v8h14v-8M12 8v13M12 8c-1.5-3-6-4-6-1.5S10 8 12 8zM12 8c1.5-3 6-4 6-1.5S14 8 12 8z"/></g></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-9-9c-1.3-3 .6-6.5 4-6.5 2.2 0 3.6 1.3 5 3 1.4-1.7 2.8-3 5-3 3.4 0 5.3 3.5 4 6.5-2 4.6-9 9-9 9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></g></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 14a4 4 0 006 0l3-3a4 4 0 00-6-6l-1 1"/><path d="M14 10a4 4 0 00-6 0l-3 3a4 4 0 006 6l1-1"/></g></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.6"/></g><circle cx="17" cy="7" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 4l14 16M19 4L5 20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-tt" viewBox="0 0 24 24"><path d="M14 4v10.5a3.5 3.5 0 11-3.5-3.5M14 4c.5 2.5 2.5 4 5 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 00-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8z" fill="currentColor"/></symbol>
+  </defs>
+</svg>
+
+<!-- Demo bar -->
+<div class="demobar">
+  <div class="wrap">
+    <span class="tag">Concept demo</span>
+    <button class="tour-btn" id="tourBtn"><svg viewBox="0 0 24 24"><use href="#i-heart"/></svg>Take the tour</button>
+    <button class="ghost demo-toggle" id="demoToggle" aria-expanded="false" aria-controls="demoCtrls">Demo controls</button>
+    <div class="demo-ctrls" id="demoCtrls">
+    <span class="note long">Prepared by SDP for Driscoll's. Simulated experience, no data leaves this page.</span>
+    <span class="spacer"></span>
+    <div class="seg" role="tablist" aria-label="Demo view">
+      <button data-mode="consumer" class="on">Consumer site</button>
+      <button data-mode="insights">Program insights</button>
+    </div>
+    <label class="note" for="viewAs" style="opacity:1">Viewing as</label>
+    <select id="viewAs"></select>
+    <button class="ghost" id="resetBtn">Reset demo</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CONSUMER SITE ============ -->
+<div id="consumer">
+<header class="site">
+  <div class="wrap">
+    <a class="wordmark" href="#top" data-go="landing"><img src="images/logo.png" alt="Driscoll's, Only the Finest Berries" width="158" height="48"></a>
+    <nav class="links">
+      <a href="#how" data-go="landing">How it works</a>
+      <a href="#prizes" data-go="landing">Prizes</a>
+      <a href="#earn" data-go="landing">Earn entries</a>
+      <a href="#faq" data-go="landing">FAQ</a>
+    </nav>
+    <div class="entrypill hidden" id="entryPill"><span class="dot" id="pillN">0</span><span class="txt">entries</span></div>
+    <a class="btn sm" href="#join" id="hdrJoin" data-go="landing">Join now</a>
+  </div>
+</header>
+
+<!-- LANDING -->
+<main id="v-landing">
+  <div class="hero" id="top">
+    <div class="bg" role="img" aria-label="Bowl of fresh strawberries, blueberries, raspberries and blackberries on a garden table"></div>
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Sweepstakes and instant win</div>
+        <h1>Sweetness <span class="script">Worth Sharing</span></h1>
+        <p class="lead">Great berries bring people together. Join for a chance to win, spin the berries for an instant prize, then share the sweetness with the people you love.<span class="heart">&#9825;</span></p>
+        <div class="cta">
+          <a class="btn berry" href="#join">Join the sweetness</a>
+          <a class="btn line" href="#how">See how it works</a>
+        </div>
+        <p class="fine">NO PURCHASE NECESSARY. Open to legal residents of the 50 U.S. and D.C., 18 or older. Void where prohibited. See Official Rules. (Placeholder legal copy for demo.)</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">How it works</div>
+        <h2>Join for a chance to win. Then share the experience.</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><div class="ico" style="background:var(--pink);color:var(--green-ink)"><svg width="34" height="34"><use href="#i-user"/></svg></div><h3><span class="num">1</span>Sign up</h3><p>Register for a sweepstakes entry and an immediate berry spin for an instant prize.</p><a class="go" href="#join">Go to the sign up form &rarr;</a></div>
+        <div class="step"><div class="ico" style="background:var(--leaf);color:var(--green-ink)"><svg width="34" height="34"><use href="#i-share"/></svg></div><h3><span class="num">2</span>Share</h3><p>Send your unique referral link to a friend, or share the sweetness on social.</p></div>
+        <div class="step"><div class="ico" style="background:var(--sun);color:var(--green-ink)"><svg width="34" height="34"><use href="#i-gift"/></svg></div><h3><span class="num">3</span>Get rewarded</h3><p>Earn extra entries for eligible sharing and for every friend who signs up through your link.</p></div>
+      </div>
+      <div class="how-cta"><p>Ready? It takes about a minute, and your berry spin starts right after.</p><a class="btn berry" href="#join">Sign up now</a></div>
+      <p class="tagline script">More Sharing. More Good. &#9825;</p>
+    </div>
+  </section>
+
+  <section class="prizes" id="prizes">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="eyebrow">Prizes</div>
+        <h2>Sweet prizes, from the field to the city.</h2>
+        <p>Prize mix shown is illustrative and subject to approval.</p>
+      </div>
+      <div class="prize-grid">
+        <div class="grand"><div class="in"><div class="eyebrow">Grand prize</div><h3>A New York fall trip with the Berry Mobile</h3><p>Travel for the winner and a guest to ride along with the Driscoll's Berry Mobile in New York this fall.</p></div></div>
+        <div>
+          <div class="prize-list">
+            <div class="pcard"><div class="chip" style="background:var(--sun)">5x</div><div><b>$100 gift cards</b><span>Five first prize winners</span></div></div>
+            <div class="pcard"><div class="chip" style="background:var(--pink)">$25</div><div><b>Merchandise credit</b><span>Second prize winners</span></div></div>
+          </div>
+          <div class="iw">
+            <h4>Instant win berry spin prizes</h4>
+            <div class="iw-items"><span>Driscoll's t-shirt</span><span>Berry socks</span><span>Pickleball set</span><span>$100 gift card</span><span>Market tote</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="earn">
+    <div class="wrap earn">
+      <div>
+        <div class="sec-head" style="margin-bottom:18px">
+          <div class="eyebrow">Ways to earn entries</div>
+          <h2>The more you share, the more chances to win.</h2>
+        </div>
+        <div class="earn-list">
+          <div class="erow"><div class="ico" style="background:var(--pink);color:var(--green-ink)"><svg width="26" height="26"><use href="#i-user"/></svg></div><div><small>Register</small><b>Sweepstakes entry plus an instant win berry spin</b></div></div>
+          <div class="erow"><div class="ico" style="background:var(--leaf);color:var(--green-ink)"><svg width="26" height="26"><use href="#i-share"/></svg></div><div><small>Eligible social share</small><b>One additional sweepstakes entry</b></div></div>
+          <div class="erow"><div class="ico" style="background:var(--sun);color:var(--green-ink)"><svg width="26" height="26"><use href="#i-gift"/></svg></div><div><small>Validated friend registration</small><b>One additional entry for each friend who joins</b></div></div>
+        </div>
+        <p class="note-sm">Proposed incentives. Final eligibility, entry limits and prize terms require alignment.</p>
+      </div>
+      <div class="photo" role="img" aria-label="Two friends laughing over a phone at a table with berries"></div>
+    </div>
+  </section>
+
+  <section class="register" id="join">
+    <div class="wrap reg-grid">
+      <div class="card">
+        <div class="invite-banner hidden" id="inviteBanner">
+          <div class="av" id="invAv">J</div>
+          <div><p><b id="invName">Jamie</b> sent you a sweet invitation</p><q>A little sweetness for you! Join me for a chance to win.</q></div>
+        </div>
+        <h2>Join the sweetness</h2>
+        <p class="sub">One entry plus an instant win berry spin, right after you sign up.</p>
+        <div class="autofill-row"><button type="button" class="btn line sm" id="autofill">Autofill demo data</button></div>
+        <form id="regForm" novalidate>
+          <div class="fields">
+            <div class="field"><label for="fFirst">First name</label><input id="fFirst" autocomplete="off"></div>
+            <div class="field"><label for="fLast">Last name</label><input id="fLast" autocomplete="off"></div>
+            <div class="field full"><label for="fEmail">Email address</label><input id="fEmail" type="email" autocomplete="off"></div>
+            <div class="field full"><label for="fStreet">Street address</label><input id="fStreet" autocomplete="off"></div>
+            <div class="field"><label for="fApt">Apt, suite or unit <span class="optl">(optional)</span></label><input id="fApt" autocomplete="off"></div>
+            <div class="field"><label for="fCity">City</label><input id="fCity" autocomplete="off"></div>
+            <div class="field"><label for="fState">State</label><select id="fState"><option value="">Select a state</option></select></div>
+            <div class="field"><label for="fZip">ZIP code</label><input id="fZip" inputmode="numeric" maxlength="5" autocomplete="off"></div>
+          </div>
+          <label class="check"><input type="checkbox" id="fRules"><span>I am 18 or older and agree to the <a href="#faq">Official Rules</a>. <b style="color:var(--berry)">Required</b></span></label>
+          <label class="check"><input type="checkbox" id="fOptin"><span class="opt">Yes, send me recipes, offers and news from Driscoll's. Optional, and not required to enter.</span></label>
+          <div class="err" id="regErr" role="alert"></div>
+          <button class="btn" type="submit">Sign up</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head"><div class="eyebrow">Questions</div><h2>Good to know</h2></div>
+      <div class="faq">
+        <details open><summary>Do I need to share to play the berry spin?</summary><p>No. Every eligible registrant gets the instant win berry spin immediately after signing up. Sharing only earns additional sweepstakes entries.</p></details>
+        <details><summary>What counts as a successful referral?</summary><p>An eligible, validated friend registration through your unique link. Copying or sending your link counts as a share, and you earn a referral entry once your friend signs up.</p></details>
+        <details><summary>Why do you ask for my mailing address?</summary><p>So we can ship prizes to winners and confirm eligibility. Your address is used only to administer this promotion.</p></details>
+        <details><summary>Is there a limit on bonus entries?</summary><p>Yes. Proposed limits on social share entries and referral entries will be set in the Official Rules.</p></details>
+        <details><summary>Can I refer myself or use a second email?</summary><p>No. Self referrals and duplicate registrations are not eligible and are screened by the platform.</p></details>
+        <details><summary>Where are the Official Rules?</summary><p>Final Official Rules will be published at launch. This demo uses placeholder copy.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- APP: SPIN -->
+<main id="v-spin" class="app hidden">
+  <div class="wrap app-grid">
+    <div class="panel">
+      <div class="progress" data-step="2"><span>1 Join</span><span>2 Berry spin</span><span>3 Share</span><span>4 Friend engages</span><span>5 Keep sharing</span></div>
+      <div class="eyebrow">You're in!</div>
+      <h2>Your entry is in, <span class="script" id="spinName">friend</span>.</h2>
+      <p class="sub">Now spin the berries for an instant prize. Line up three of a kind to win.</p>
+      <div class="machine">
+        <div class="reels" id="reels"></div>
+        <div class="lbl">Berry spin &middot; one spin per registration</div>
+      </div>
+      <div class="spin-cta"><button class="btn berry" id="spinBtn">Spin the berries</button></div>
+      <div class="result" id="spinResult"></div>
+    </div>
+    <aside class="side" data-side></aside>
+  </div>
+</main>
+
+<!-- APP: SHARE -->
+<main id="v-share" class="app hidden">
+  <div class="wrap app-grid">
+    <div class="panel">
+      <div class="progress" data-step="3"><span>1 Join</span><span>2 Berry spin</span><span>3 Share</span><span>4 Friend engages</span><span>5 Keep sharing</span></div>
+      <div class="eyebrow" id="shareEyebrow">Share a little sweetness</div>
+      <h2 id="shareTitle">Share some sweetness</h2>
+      <p class="sub">Send your unique link to someone you know, or share with your community. Each friend who signs up earns you an extra entry.</p>
+      <div class="linkbox"><code id="refLink">driscolls.com/share/...</code><button class="btn sm" id="copyTop">Copy link</button></div>
+      <div class="share-cols">
+        <div class="sharebox">
+          <small>Personal sharing</small>
+          <h3>Send to a friend</h3>
+          <p>One to one. A unique link shared directly with someone you know.</p>
+          <div class="sbtns">
+            <button class="sbtn" data-ch="text"><span class="si" style="background:#34A853"><svg width="18" height="18"><use href="#i-text"/></svg></span>Text<span class="meta" data-meta="text"></span></button>
+            <button class="sbtn" data-ch="email"><span class="si" style="background:#2D7FF9"><svg width="18" height="18"><use href="#i-mail"/></svg></span>Email<span class="meta" data-meta="email"></span></button>
+            <button class="sbtn" data-ch="copy"><span class="si" style="background:var(--green)"><svg width="18" height="18"><use href="#i-link"/></svg></span>Copy link<span class="meta" data-meta="copy"></span></button>
+          </div>
+        </div>
+        <div class="sharebox">
+          <small>Social sharing</small>
+          <h3>Share on social</h3>
+          <p>One to many. Share with your broader community for a bonus entry.</p>
+          <div class="sbtns">
+            <button class="sbtn" data-ch="instagram"><span class="si" style="background:linear-gradient(45deg,#F9A825,#E1306C,#833AB4)"><svg width="18" height="18"><use href="#i-ig"/></svg></span>Instagram<span class="meta" data-meta="instagram"></span></button>
+            <button class="sbtn" data-ch="tiktok"><span class="si" style="background:#111"><svg width="18" height="18"><use href="#i-tt"/></svg></span>TikTok<span class="meta" data-meta="tiktok"></span></button>
+            <button class="sbtn" data-ch="x"><span class="si" style="background:#111"><svg width="16" height="16"><use href="#i-x"/></svg></span>X<span class="meta" data-meta="x"></span></button>
+            <button class="sbtn" data-ch="facebook"><span class="si" style="background:#1877F2"><svg width="18" height="18"><use href="#i-fb"/></svg></span>Facebook<span class="meta" data-meta="facebook"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="distinct">A share action is distinct from a validated referral. Referral entries are credited only when a friend completes an eligible registration.</div>
+    </div>
+    <aside class="side" data-side></aside>
+  </div>
+</main>
+</div>
+
+<!-- ============ INSIGHTS ============ -->
+<div id="insights" class="hidden">
+  <header class="site"><div class="wrap"><a class="wordmark" href="#"><img src="images/logo.png" alt="Driscoll's, Only the Finest Berries" width="158" height="48"><small>Program insights &middot; Sweetness Worth Sharing</small></a><div class="powered"><span>Platform by</span><img src="images/sdp.png" alt="SDP Secure Digital Promotions"></div></div></header>
+  <main class="insights">
+    <div class="wrap">
+      <div class="ins-head">
+        <div>
+          <div class="eyebrow">Client reporting view</div>
+          <h2>The promotion generates participation.<br>The referral behavior generates insight.</h2>
+          <p id="dataLabel">Live data from this demo session.</p>
+        </div>
+        <div class="seg" style="background:var(--cream-2)">
+          <button class="on" data-ds="live" style="color:var(--green)">This session</button>
+          <button data-ds="sample" style="color:var(--green)">Illustrative pilot</button>
+        </div>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><small>Share participation rate</small><div class="v" id="k1">0%</div><div class="f">Participants initiating sharing &divide; registrations</div></div>
+        <div class="kpi"><small>Referral visit to registration</small><div class="v" id="k2">0%</div><div class="f">Validated referral registrations &divide; referral visits</div></div>
+        <div class="kpi"><small>Referred participants sharing again</small><div class="v" id="k3">0%</div><div class="f">Repeat sharing among referred registrants</div></div>
+      </div>
+      <div class="ins-grid">
+        <div class="box">
+          <h3>Referral funnel</h3>
+          <div class="funnel" id="funnel"></div>
+          <p class="caveat">Track observable actions. Copying a link does not confirm delivery, and a new registrant is not evidence of a new Driscoll's buyer.</p>
+        </div>
+        <div class="box">
+          <h3>Share actions by channel</h3>
+          <div class="chans" id="chans"></div>
+        </div>
+        <div class="box">
+          <h3>Fraud and security controls</h3>
+          <div class="ctrls" id="ctrls"></div>
+        </div>
+        <div class="box">
+          <h3>Attribution event log</h3>
+          <div class="log" id="log"></div>
+        </div>
+      </div>
+      <div class="box" style="margin-top:18px">
+        <h3>Learn now. Build from what works.</h3>
+        <div class="roadmap">
+          <div class="rm now"><small>Starting point</small><b>Sweetness Worth Sharing</b><span>Referral plus social sharing</span></div>
+          <div class="rm"><small>Potential</small><b>Shopper activation</b><span>Referral plus offers plus purchase</span></div>
+          <div class="rm"><small>Potential</small><b>Consumer programs</b><span>Referral plus CRM plus personalization</span></div>
+          <div class="rm"><small>Potential</small><b>Long term advocacy</b><span>Recognize and engage Driscoll's strongest advocates</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="wordmark"><img src="images/logowhite.png" alt="Driscoll's, Only the Finest Berries" width="185" height="56"></div>
+    <div class="flinks"><a href="#faq">Official Rules</a><a href="#faq">Privacy</a><a href="#faq">Terms</a><a href="#faq">Contact</a></div>
+    <p class="legal">NO PURCHASE NECESSARY TO ENTER OR WIN. A purchase will not increase your chances of winning. Sweepstakes and instant win game details, odds, prize values and eligibility are placeholders for this concept and subject to the final Official Rules. Social platforms are not sponsors of this promotion. This is a non functional demonstration; social posts, texts and emails are simulated.</p>
+    <div class="powered"><span>Promotion platform and administration by</span><img src="images/sdp.png" alt="SDP Secure Digital Promotions"></div>
+  </div>
+</footer>
+
+<!-- Sheet -->
+<div class="scrim" id="scrim"><div class="sheet" id="sheet" role="dialog" aria-modal="true"></div></div>
+<div class="toast" id="toast"></div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>

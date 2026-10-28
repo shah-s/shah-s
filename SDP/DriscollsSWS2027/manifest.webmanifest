@@ -1,0 +1,14 @@
+{
+  "name": "Sweetness Worth Sharing (Concept Demo)",
+  "short_name": "Sweetness",
+  "description": "Consumer referral program concept demo prepared by SDP for Driscoll's.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7EE",
+  "theme_color": "#0E3420",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
